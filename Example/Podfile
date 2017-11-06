@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HSBNetworkImageViewObjc_Example' do
+  pod 'HSBNetworkImageViewObjc', :path => '../'
+
+  target 'HSBNetworkImageViewObjc_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

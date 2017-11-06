@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EBB4A0E942951A924CB0CA7A61E60A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6BED4B514C6D86B162D87DFE95767DCC /* Pods-HSBNetworkImageViewObjc_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9829877830E658669A0E654244B33764 /* Pods-HSBNetworkImageViewObjc_Example-dummy.m */; };
+		7B047489F98CD824D06236BFF1CE0302 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B055BE00C7075163BF1425FD3174961 /* ReplaceMe.m */; };
+		A414D1DB46961B013A3B896E6F9394AD /* Pods-HSBNetworkImageViewObjc_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F378969BF85FCD3A1EB7FDAB03F54D1C /* Pods-HSBNetworkImageViewObjc_Tests-dummy.m */; };
+		A949D9E4B027CB75DE2588FEA7000F3D /* Pods-HSBNetworkImageViewObjc_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED04637EF5CDDA433C2DC649475F0085 /* Pods-HSBNetworkImageViewObjc_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF4B2E544F8A12145469363608895600 /* HSBNetworkImageViewObjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA496C8F0804C05E14517AEDF3A1F04 /* HSBNetworkImageViewObjc-dummy.m */; };
+		B2F8C168F02D438C8BE2A513E1325980 /* HSBNetworkImageViewObjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3555D2D4F03D9438ADC230CC5B1AC1 /* HSBNetworkImageViewObjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD6B36F60E396F0F97125D9F7B6A0F20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CDF6F217BD2C844F70812AA245B8ABD2 /* Pods-HSBNetworkImageViewObjc_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92BB76EDFB45E3C639ECE53DA2AF29E2 /* Pods-HSBNetworkImageViewObjc_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEFD0B2D3A01F286F4DF2732F42BABB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E55DCAED32A1E9B6167A068517496025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00CDC7AF90C045315C77F6BD7870C271;
+			remoteInfo = HSBNetworkImageViewObjc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03DAB1D80C2323DD0229861085FFAC6C /* Pods-HSBNetworkImageViewObjc_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSBNetworkImageViewObjc_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		05550AE8B99FB55578A899946628FE07 /* Pods-HSBNetworkImageViewObjc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBNetworkImageViewObjc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		080190D22B9A43613095AA3CD76ADF2D /* HSBNetworkImageViewObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HSBNetworkImageViewObjc.framework; path = HSBNetworkImageViewObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B055BE00C7075163BF1425FD3174961 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		23115C3B646ED1D781C1AC3A4026CDA1 /* Pods-HSBNetworkImageViewObjc_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSBNetworkImageViewObjc_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		242BA9BE81DA84F49CB94DF86B6F82CD /* Pods-HSBNetworkImageViewObjc_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSBNetworkImageViewObjc_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		42386F7203FBAE66593F2C4198ED01BC /* Pods-HSBNetworkImageViewObjc_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HSBNetworkImageViewObjc_Example.modulemap"; sourceTree = "<group>"; };
+		46A28B6A8F36DFDD97C15233C7FFDE04 /* HSBNetworkImageViewObjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HSBNetworkImageViewObjc.xcconfig; sourceTree = "<group>"; };
+		4845C25D3DC7942C885E69668E721B8E /* Pods-HSBNetworkImageViewObjc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBNetworkImageViewObjc_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4AB945B1C756DCBF9C7EBACDBC24D29C /* HSBNetworkImageViewObjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSBNetworkImageViewObjc-prefix.pch"; sourceTree = "<group>"; };
+		56B650E30BB74D409A4EAC9DF3000873 /* Pods-HSBNetworkImageViewObjc_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSBNetworkImageViewObjc_Example-resources.sh"; sourceTree = "<group>"; };
+		5AA496C8F0804C05E14517AEDF3A1F04 /* HSBNetworkImageViewObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HSBNetworkImageViewObjc-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D7C7CF2563DAE2111FB63F70A77EBD4 /* Pods-HSBNetworkImageViewObjc_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HSBNetworkImageViewObjc_Tests.modulemap"; sourceTree = "<group>"; };
+		7E3555D2D4F03D9438ADC230CC5B1AC1 /* HSBNetworkImageViewObjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSBNetworkImageViewObjc-umbrella.h"; sourceTree = "<group>"; };
+		8D0FC343670C03FA97DCA5A3F26DFCB3 /* Pods-HSBNetworkImageViewObjc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBNetworkImageViewObjc_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8E8AE8E841E9870387A5F9BEB003FCB1 /* Pods-HSBNetworkImageViewObjc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBNetworkImageViewObjc_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		92BB76EDFB45E3C639ECE53DA2AF29E2 /* Pods-HSBNetworkImageViewObjc_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSBNetworkImageViewObjc_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9829877830E658669A0E654244B33764 /* Pods-HSBNetworkImageViewObjc_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSBNetworkImageViewObjc_Example-dummy.m"; sourceTree = "<group>"; };
+		998CF59C4C8E185FDC0DA136D7CE91AF /* Pods-HSBNetworkImageViewObjc_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSBNetworkImageViewObjc_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A733F77B5B123170D189B3A39B76CB71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC04BE522C2DAC6B3194A627E7B6A9B5 /* Pods_HSBNetworkImageViewObjc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HSBNetworkImageViewObjc_Example.framework; path = "Pods-HSBNetworkImageViewObjc_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1A68C2FC599CF1A7AAFF5542B2B467 /* Pods-HSBNetworkImageViewObjc_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSBNetworkImageViewObjc_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BEE8A71D439C085A53B45DA4B6378501 /* HSBNetworkImageViewObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HSBNetworkImageViewObjc.modulemap; sourceTree = "<group>"; };
+		C177CAB7A4AD546902ED0543FAC41A1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98913E6353D8944E528FE41C5E3D4F4 /* Pods-HSBNetworkImageViewObjc_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSBNetworkImageViewObjc_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C9C070132BAEAF66D7A84811DBCAB810 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB265E7048ABB601F7D6844EB25E3E9 /* Pods-HSBNetworkImageViewObjc_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSBNetworkImageViewObjc_Tests-resources.sh"; sourceTree = "<group>"; };
+		ED04637EF5CDDA433C2DC649475F0085 /* Pods-HSBNetworkImageViewObjc_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSBNetworkImageViewObjc_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F378969BF85FCD3A1EB7FDAB03F54D1C /* Pods-HSBNetworkImageViewObjc_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSBNetworkImageViewObjc_Tests-dummy.m"; sourceTree = "<group>"; };
+		F8F563A7DA76E0A53227AA0E6F776BDC /* Pods_HSBNetworkImageViewObjc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HSBNetworkImageViewObjc_Tests.framework; path = "Pods-HSBNetworkImageViewObjc_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		196763EDB68E024242E95A016F030FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6B36F60E396F0F97125D9F7B6A0F20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5F846C1D61240F0999B55520AE1341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFD0B2D3A01F286F4DF2732F42BABB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5FABD399F951D6F812161B99A4BAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBB4A0E942951A924CB0CA7A61E60A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3364777E297B593F1ECDC4166FA32F15 /* HSBNetworkImageViewObjc */ = {
+			isa = PBXGroup;
+			children = (
+				398DA736C8C9F706036C638ADD95B763 /* HSBNetworkImageViewObjc */,
+				6DF9EA4E971BD5D0F94BAE5EBDA10361 /* Support Files */,
+			);
+			name = HSBNetworkImageViewObjc;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		398DA736C8C9F706036C638ADD95B763 /* HSBNetworkImageViewObjc */ = {
+			isa = PBXGroup;
+			children = (
+				ABA970D2E0CD5D91205D6393E7F66D43 /* Classes */,
+			);
+			name = HSBNetworkImageViewObjc;
+			path = HSBNetworkImageViewObjc;
+			sourceTree = "<group>";
+		};
+		6DF9EA4E971BD5D0F94BAE5EBDA10361 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE8A71D439C085A53B45DA4B6378501 /* HSBNetworkImageViewObjc.modulemap */,
+				46A28B6A8F36DFDD97C15233C7FFDE04 /* HSBNetworkImageViewObjc.xcconfig */,
+				5AA496C8F0804C05E14517AEDF3A1F04 /* HSBNetworkImageViewObjc-dummy.m */,
+				4AB945B1C756DCBF9C7EBACDBC24D29C /* HSBNetworkImageViewObjc-prefix.pch */,
+				7E3555D2D4F03D9438ADC230CC5B1AC1 /* HSBNetworkImageViewObjc-umbrella.h */,
+				A733F77B5B123170D189B3A39B76CB71 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HSBNetworkImageViewObjc";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A8007F9A9C09914E4C43C06FDD23F584 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DD27A1CA15177310C8AD0254620C0C2A /* Products */,
+				916ACA53E6C33488F126A10020869528 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		916ACA53E6C33488F126A10020869528 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8E210B1FA6DF46B90676CD0898A0AA7 /* Pods-HSBNetworkImageViewObjc_Example */,
+				B2AE3BD71A4691A0D3A7977A166018D4 /* Pods-HSBNetworkImageViewObjc_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A8007F9A9C09914E4C43C06FDD23F584 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3364777E297B593F1ECDC4166FA32F15 /* HSBNetworkImageViewObjc */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ABA970D2E0CD5D91205D6393E7F66D43 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B055BE00C7075163BF1425FD3174961 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B2AE3BD71A4691A0D3A7977A166018D4 /* Pods-HSBNetworkImageViewObjc_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C177CAB7A4AD546902ED0543FAC41A1A /* Info.plist */,
+				7D7C7CF2563DAE2111FB63F70A77EBD4 /* Pods-HSBNetworkImageViewObjc_Tests.modulemap */,
+				998CF59C4C8E185FDC0DA136D7CE91AF /* Pods-HSBNetworkImageViewObjc_Tests-acknowledgements.markdown */,
+				03DAB1D80C2323DD0229861085FFAC6C /* Pods-HSBNetworkImageViewObjc_Tests-acknowledgements.plist */,
+				F378969BF85FCD3A1EB7FDAB03F54D1C /* Pods-HSBNetworkImageViewObjc_Tests-dummy.m */,
+				242BA9BE81DA84F49CB94DF86B6F82CD /* Pods-HSBNetworkImageViewObjc_Tests-frameworks.sh */,
+				ECB265E7048ABB601F7D6844EB25E3E9 /* Pods-HSBNetworkImageViewObjc_Tests-resources.sh */,
+				ED04637EF5CDDA433C2DC649475F0085 /* Pods-HSBNetworkImageViewObjc_Tests-umbrella.h */,
+				05550AE8B99FB55578A899946628FE07 /* Pods-HSBNetworkImageViewObjc_Tests.debug.xcconfig */,
+				8E8AE8E841E9870387A5F9BEB003FCB1 /* Pods-HSBNetworkImageViewObjc_Tests.release.xcconfig */,
+			);
+			name = "Pods-HSBNetworkImageViewObjc_Tests";
+			path = "Target Support Files/Pods-HSBNetworkImageViewObjc_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D8E210B1FA6DF46B90676CD0898A0AA7 /* Pods-HSBNetworkImageViewObjc_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C9C070132BAEAF66D7A84811DBCAB810 /* Info.plist */,
+				42386F7203FBAE66593F2C4198ED01BC /* Pods-HSBNetworkImageViewObjc_Example.modulemap */,
+				23115C3B646ED1D781C1AC3A4026CDA1 /* Pods-HSBNetworkImageViewObjc_Example-acknowledgements.markdown */,
+				AF1A68C2FC599CF1A7AAFF5542B2B467 /* Pods-HSBNetworkImageViewObjc_Example-acknowledgements.plist */,
+				9829877830E658669A0E654244B33764 /* Pods-HSBNetworkImageViewObjc_Example-dummy.m */,
+				C98913E6353D8944E528FE41C5E3D4F4 /* Pods-HSBNetworkImageViewObjc_Example-frameworks.sh */,
+				56B650E30BB74D409A4EAC9DF3000873 /* Pods-HSBNetworkImageViewObjc_Example-resources.sh */,
+				92BB76EDFB45E3C639ECE53DA2AF29E2 /* Pods-HSBNetworkImageViewObjc_Example-umbrella.h */,
+				4845C25D3DC7942C885E69668E721B8E /* Pods-HSBNetworkImageViewObjc_Example.debug.xcconfig */,
+				8D0FC343670C03FA97DCA5A3F26DFCB3 /* Pods-HSBNetworkImageViewObjc_Example.release.xcconfig */,
+			);
+			name = "Pods-HSBNetworkImageViewObjc_Example";
+			path = "Target Support Files/Pods-HSBNetworkImageViewObjc_Example";
+			sourceTree = "<group>";
+		};
+		DD27A1CA15177310C8AD0254620C0C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				080190D22B9A43613095AA3CD76ADF2D /* HSBNetworkImageViewObjc.framework */,
+				AC04BE522C2DAC6B3194A627E7B6A9B5 /* Pods_HSBNetworkImageViewObjc_Example.framework */,
+				F8F563A7DA76E0A53227AA0E6F776BDC /* Pods_HSBNetworkImageViewObjc_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		70F725F038AC91FF1EC3064C72C96878 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF6F217BD2C844F70812AA245B8ABD2 /* Pods-HSBNetworkImageViewObjc_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10EB447B352F0984130A96DA812A9C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A949D9E4B027CB75DE2588FEA7000F3D /* Pods-HSBNetworkImageViewObjc_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3C4DC03B0A6A8A65B8D8634B8010AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F8C168F02D438C8BE2A513E1325980 /* HSBNetworkImageViewObjc-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00CDC7AF90C045315C77F6BD7870C271 /* HSBNetworkImageViewObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16350509BD8A777E804C1265B49554B /* Build configuration list for PBXNativeTarget "HSBNetworkImageViewObjc" */;
+			buildPhases = (
+				890A1A22251B45081A242245CFD86F83 /* Sources */,
+				196763EDB68E024242E95A016F030FE3 /* Frameworks */,
+				DA3C4DC03B0A6A8A65B8D8634B8010AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSBNetworkImageViewObjc;
+			productName = HSBNetworkImageViewObjc;
+			productReference = 080190D22B9A43613095AA3CD76ADF2D /* HSBNetworkImageViewObjc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58D7CED0AA050BDAC2F850F4560E4B6C /* Pods-HSBNetworkImageViewObjc_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C9C0E62FDCE387EB292274CC22BE09F /* Build configuration list for PBXNativeTarget "Pods-HSBNetworkImageViewObjc_Tests" */;
+			buildPhases = (
+				D20C9F2D6CF607F79EFCC4611E51CCE3 /* Sources */,
+				CE5FABD399F951D6F812161B99A4BAB3 /* Frameworks */,
+				A10EB447B352F0984130A96DA812A9C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HSBNetworkImageViewObjc_Tests";
+			productName = "Pods-HSBNetworkImageViewObjc_Tests";
+			productReference = F8F563A7DA76E0A53227AA0E6F776BDC /* Pods_HSBNetworkImageViewObjc_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC50A411E30930C6A97D4546397F218F /* Pods-HSBNetworkImageViewObjc_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF4ABB6E77F182251166ADDDBA1208F /* Build configuration list for PBXNativeTarget "Pods-HSBNetworkImageViewObjc_Example" */;
+			buildPhases = (
+				338B316C6F5494D5D6CF4A1F8CFD4B6A /* Sources */,
+				8C5F846C1D61240F0999B55520AE1341 /* Frameworks */,
+				70F725F038AC91FF1EC3064C72C96878 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BCFD588F606E7283A27538C4C2297E /* PBXTargetDependency */,
+			);
+			name = "Pods-HSBNetworkImageViewObjc_Example";
+			productName = "Pods-HSBNetworkImageViewObjc_Example";
+			productReference = AC04BE522C2DAC6B3194A627E7B6A9B5 /* Pods_HSBNetworkImageViewObjc_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DD27A1CA15177310C8AD0254620C0C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00CDC7AF90C045315C77F6BD7870C271 /* HSBNetworkImageViewObjc */,
+				CC50A411E30930C6A97D4546397F218F /* Pods-HSBNetworkImageViewObjc_Example */,
+				58D7CED0AA050BDAC2F850F4560E4B6C /* Pods-HSBNetworkImageViewObjc_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		338B316C6F5494D5D6CF4A1F8CFD4B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BED4B514C6D86B162D87DFE95767DCC /* Pods-HSBNetworkImageViewObjc_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890A1A22251B45081A242245CFD86F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4B2E544F8A12145469363608895600 /* HSBNetworkImageViewObjc-dummy.m in Sources */,
+				7B047489F98CD824D06236BFF1CE0302 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20C9F2D6CF607F79EFCC4611E51CCE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A414D1DB46961B013A3B896E6F9394AD /* Pods-HSBNetworkImageViewObjc_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62BCFD588F606E7283A27538C4C2297E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HSBNetworkImageViewObjc;
+			target = 00CDC7AF90C045315C77F6BD7870C271 /* HSBNetworkImageViewObjc */;
+			targetProxy = E55DCAED32A1E9B6167A068517496025 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27646ED340FEC5982DF9B9456129D504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05550AE8B99FB55578A899946628FE07 /* Pods-HSBNetworkImageViewObjc_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HSBNetworkImageViewObjc_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSBNetworkImageViewObjc_Tests/Pods-HSBNetworkImageViewObjc_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HSBNetworkImageViewObjc_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E254366FD09D6164B5CB54FC21DD84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A28B6A8F36DFDD97C15233C7FFDE04 /* HSBNetworkImageViewObjc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HSBNetworkImageViewObjc/HSBNetworkImageViewObjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HSBNetworkImageViewObjc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HSBNetworkImageViewObjc/HSBNetworkImageViewObjc.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HSBNetworkImageViewObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AFB98B23E6F3970222B6E724033089A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0FC343670C03FA97DCA5A3F26DFCB3 /* Pods-HSBNetworkImageViewObjc_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HSBNetworkImageViewObjc_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSBNetworkImageViewObjc_Example/Pods-HSBNetworkImageViewObjc_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HSBNetworkImageViewObjc_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B05166910FC2B6E38DE8CB5809FE5ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A28B6A8F36DFDD97C15233C7FFDE04 /* HSBNetworkImageViewObjc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HSBNetworkImageViewObjc/HSBNetworkImageViewObjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HSBNetworkImageViewObjc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HSBNetworkImageViewObjc/HSBNetworkImageViewObjc.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HSBNetworkImageViewObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3D9B6EBDFE7E074ED0C87F004E57F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8AE8E841E9870387A5F9BEB003FCB1 /* Pods-HSBNetworkImageViewObjc_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HSBNetworkImageViewObjc_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSBNetworkImageViewObjc_Tests/Pods-HSBNetworkImageViewObjc_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HSBNetworkImageViewObjc_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFC6C7C580EABE626A5E0EB04B2A6728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4845C25D3DC7942C885E69668E721B8E /* Pods-HSBNetworkImageViewObjc_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HSBNetworkImageViewObjc_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSBNetworkImageViewObjc_Example/Pods-HSBNetworkImageViewObjc_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HSBNetworkImageViewObjc_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C9C0E62FDCE387EB292274CC22BE09F /* Build configuration list for PBXNativeTarget "Pods-HSBNetworkImageViewObjc_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27646ED340FEC5982DF9B9456129D504 /* Debug */,
+				B3D9B6EBDFE7E074ED0C87F004E57F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF4ABB6E77F182251166ADDDBA1208F /* Build configuration list for PBXNativeTarget "Pods-HSBNetworkImageViewObjc_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC6C7C580EABE626A5E0EB04B2A6728 /* Debug */,
+				9AFB98B23E6F3970222B6E724033089A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C16350509BD8A777E804C1265B49554B /* Build configuration list for PBXNativeTarget "HSBNetworkImageViewObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E254366FD09D6164B5CB54FC21DD84D /* Debug */,
+				B05166910FC2B6E38DE8CB5809FE5ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

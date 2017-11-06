@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Delegate-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y9e-5v-Xba" customClass="HSBNetworkImageView">
+                                <rect key="frame" x="67" y="50" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="K3B-va-O1X"/>
+                                    <constraint firstAttribute="height" constant="128" id="tsq-cU-Bef"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="mm2-3H-faq"/>
+                                </connections>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RDi-KI-FqK" customClass="HSBNetworkImageView">
+                                <rect key="frame" x="67" y="186" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="N6I-p3-Qw6"/>
+                                    <constraint firstAttribute="width" constant="240" id="hb6-RM-zkA"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="hzh-XF-3KA"/>
+                                </connections>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cyN-V2-GpO" customClass="HSBNetworkImageView">
+                                <rect key="frame" x="67" y="322" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="4cx-h1-Kf3"/>
+                                    <constraint firstAttribute="height" constant="128" id="PbH-vn-8J5"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="jbJ-uy-1nU"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RDi-KI-FqK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Hn-ay-fDs"/>
+                            <constraint firstItem="cyN-V2-GpO" firstAttribute="top" secondItem="RDi-KI-FqK" secondAttribute="bottom" constant="8" id="Ru6-xK-3mb"/>
+                            <constraint firstItem="Y9e-5v-Xba" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cVF-Rw-vJY"/>
+                            <constraint firstItem="cyN-V2-GpO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lYq-1p-O2e"/>
+                            <constraint firstItem="RDi-KI-FqK" firstAttribute="top" secondItem="Y9e-5v-Xba" secondAttribute="bottom" constant="8" id="wev-Hk-GHB"/>
+                            <constraint firstItem="Y9e-5v-Xba" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="y2F-IA-Ibf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Y9e-5v-Xba" id="qpW-fF-XwD"/>
+                        <outlet property="imageView2" destination="RDi-KI-FqK" id="2T6-Yj-Onk"/>
+                        <outlet property="imageView3" destination="cyN-V2-GpO" id="onS-jg-LmV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

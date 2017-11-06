@@ -1,0 +1,6 @@
+framework module Pods_HSBNetworkImageViewObjc_Tests {
+  umbrella header "Pods-HSBNetworkImageViewObjc_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

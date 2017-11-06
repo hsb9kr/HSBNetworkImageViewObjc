@@ -1,0 +1,16 @@
+PODS:
+  - HSBNetworkImageViewObjc (0.1.0)
+
+DEPENDENCIES:
+  - HSBNetworkImageViewObjc (from `../`)
+
+EXTERNAL SOURCES:
+  HSBNetworkImageViewObjc:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HSBNetworkImageViewObjc: f22dbbc7eb9b39f980525a769565dafb2e891d71
+
+PODFILE CHECKSUM: 99558c99c4b82ec80437161d4123ab75929296f4
+
+COCOAPODS: 1.2.0
