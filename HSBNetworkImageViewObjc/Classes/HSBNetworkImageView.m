@@ -114,7 +114,7 @@
 }
 
 - (BOOL)useCache {
-    return _cache;
+    return _cache != nil;
 }
 
 - (void)setUseCache:(BOOL)useCache {
