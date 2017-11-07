@@ -33,6 +33,15 @@
     [_imageView3 imageWithURLString:@"https://wallpapershome.com/images/wallpapers/typography-5120x2880-5k-4k-wallpaper-font-abstract-pink-shape-3d-13116.jpg"];
 }
 
+- (IBAction)reload:(id)sender {
+    _imageView.image = nil;
+    _imageView2.image = nil;
+    _imageView3.image = nil;
+    [_imageView reload];
+    [_imageView2 reload];
+    [_imageView3 reload];
+}
+
 #pragma mark <HSBNetworkImageDelegate>
 
 - (UIView *)hsbImageViewAddRetryView:(HSBNetworkImageView *)imageView {

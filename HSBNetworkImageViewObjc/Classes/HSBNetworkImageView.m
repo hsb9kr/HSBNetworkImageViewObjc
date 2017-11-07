@@ -23,6 +23,19 @@
 @dynamic state;
 @dynamic url;
 
++ (NSCache *)defaultCache {
+    static NSCache *defaultCache = nil;
+    
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        defaultCache = [[NSCache alloc] init];
+        defaultCache.countLimit = INFINITY;
+        defaultCache.totalCostLimit = 100 * 1024 * 1024;
+    });
+    
+    return defaultCache;
+}
+
 - (void)layoutSubviews {
     [super layoutSubviews];
     if (!_retryView && _delegateFlage.retryView) {
@@ -100,6 +113,18 @@
     return self.layer.cornerRadius;
 }
 
+- (BOOL)useCache {
+    return _cache;
+}
+
+- (void)setUseCache:(BOOL)useCache {
+    if (useCache) {
+        _cache = HSBNetworkImageView.defaultCache;
+    } else {
+        _cache = nil;
+    }
+}
+
 #pragma mark <Public>
 
 - (void)imageWithURLString:(NSString *)urlString {
@@ -117,8 +142,18 @@
         }
         return;
     }
+    [self reload];
+}
+
+- (void)invalidateSession {
+    [_session invalidateAndCancel];
+}
+
+- (void)reload {
+    if (!_url) return;
+    
     if (_cache) {
-        NSPurgeableData *cacheData = [_cache objectForKey:url.absoluteString];
+        NSPurgeableData *cacheData = [_cache objectForKey:_url.absoluteString];
         if (cacheData) {
             [cacheData beginContentAccess];
             _data = cacheData;
@@ -126,22 +161,12 @@
         }
         if (_data && _data.length != 0 && (self.image = [UIImage imageWithData:_data])) {
             if (_delegateFlage.success) {
-                [_delegate hsbImageView:self image:self.image url: url userInfo:_userInfo isCached:YES];
+                [_delegate hsbImageView:self image:self.image url: _url userInfo:_userInfo isCached:YES];
             }
             return;
         }
     }
-    [self request];
-}
-
-- (void)invalidateSession {
-    [_session invalidateAndCancel];
-}
-
-#pragma mark <Private>
-
-- (void)request {
-    if (!_url) return;
+    
     if (_task) {
         switch (_task.state) {
             case NSURLSessionTaskStateCanceling:
@@ -170,7 +195,7 @@
 - (void)retryViewTapGestureAction:(UITapGestureRecognizer *)recognizer {
     if (!_url) return;
     _retryView.hidden = YES;
-    [self request];
+    [self reload];
 }
 
 @end

@@ -24,6 +24,9 @@
                                     <constraint firstAttribute="width" constant="240" id="K3B-va-O1X"/>
                                     <constraint firstAttribute="height" constant="128" id="tsq-cU-Bef"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useCache" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="mm2-3H-faq"/>
                                 </connections>
@@ -34,6 +37,9 @@
                                     <constraint firstAttribute="height" constant="128" id="N6I-p3-Qw6"/>
                                     <constraint firstAttribute="width" constant="240" id="hb6-RM-zkA"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useCache" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="hzh-XF-3KA"/>
                                 </connections>
@@ -44,16 +50,28 @@
                                     <constraint firstAttribute="width" constant="240" id="4cx-h1-Kf3"/>
                                     <constraint firstAttribute="height" constant="128" id="PbH-vn-8J5"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useCache" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="jbJ-uy-1nU"/>
                                 </connections>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0TE-vl-UKC">
+                                <rect key="frame" x="163.5" y="617" width="47" height="30"/>
+                                <state key="normal" title="Reload"/>
+                                <connections>
+                                    <action selector="reload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A4X-nH-whT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="RDi-KI-FqK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Hn-ay-fDs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0TE-vl-UKC" secondAttribute="bottom" constant="20" id="G9u-Dn-GlK"/>
                             <constraint firstItem="cyN-V2-GpO" firstAttribute="top" secondItem="RDi-KI-FqK" secondAttribute="bottom" constant="8" id="Ru6-xK-3mb"/>
                             <constraint firstItem="Y9e-5v-Xba" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cVF-Rw-vJY"/>
+                            <constraint firstItem="0TE-vl-UKC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ghc-G8-Ow9"/>
                             <constraint firstItem="cyN-V2-GpO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lYq-1p-O2e"/>
                             <constraint firstItem="RDi-KI-FqK" firstAttribute="top" secondItem="Y9e-5v-Xba" secondAttribute="bottom" constant="8" id="wev-Hk-GHB"/>
                             <constraint firstItem="Y9e-5v-Xba" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="y2F-IA-Ibf"/>

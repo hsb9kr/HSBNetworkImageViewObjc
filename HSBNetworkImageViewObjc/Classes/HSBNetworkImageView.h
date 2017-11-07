@@ -40,11 +40,14 @@ IB_DESIGNABLE
 @property (strong, nonatomic) IBInspectable UIColor *borderColor;
 @property (nonatomic) IBInspectable CGFloat borderWidth;
 @property (nonatomic) IBInspectable CGFloat cornerRadius;
+@property (nonatomic) IBInspectable BOOL useCache;
+
++ (NSCache *)defaultCache;
 
 - (void)imageWithURLString:(NSString *)urlString;
 - (void)imageWithURL:(NSURL *)url;
 - (void)invalidateSession;
-
+- (void)reload;
 @end
 
 @protocol HSBNetworkImageDelegate <NSObject>
