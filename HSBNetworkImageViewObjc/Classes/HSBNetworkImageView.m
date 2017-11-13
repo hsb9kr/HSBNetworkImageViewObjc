@@ -142,15 +142,6 @@
         }
         return;
     }
-    [self reload];
-}
-
-- (void)invalidateSession {
-    [_session invalidateAndCancel];
-}
-
-- (void)reload {
-    if (!_url) return;
     
     if (_cache) {
         NSPurgeableData *cacheData = [_cache objectForKey:_url.absoluteString];
@@ -167,6 +158,16 @@
         }
     }
     
+    [self reload];
+}
+
+- (void)invalidateSession {
+    [_session invalidateAndCancel];
+}
+
+- (void)reload {
+    if (!_url) return;
+    
     if (_task) {
         switch (_task.state) {
             case NSURLSessionTaskStateCanceling:
@@ -179,6 +180,7 @@
                 break;
         }
     }
+    
     if (_timeoutInterval <= 0) {
         _timeoutInterval = 30.f;
     }
